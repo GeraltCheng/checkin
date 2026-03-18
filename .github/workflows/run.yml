@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: 30 08 * * *
+    - cron: 00 06 * * *
 
 jobs:
   run:
